@@ -85,6 +85,13 @@ textarea{
 	resize: none;
 }
 
+body{
+	background-color: #f2f2f2!important;
+}
+
+.r1{
+	background-color: transparent!important;
+}
 .r01 {
 	position: absolute;
 	height: 470px;
@@ -111,72 +118,7 @@ textarea{
 	height: 300px;
 	background-color: #233343;
 }
-.pre-slider {
-	background-image: -webkit-linear-gradient(15deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	background-image: -o-linear-gradient(15deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	background-image: linear-gradient(105deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	height: 300px;
-	width: 100%;
-	display: inline-block;
-}
 
-.slider-gradient{
-	background-image: -webkit-linear-gradient(15deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	background-image: -o-linear-gradient(15deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	background-image: linear-gradient(105deg, rgb(34,51,67) 42%, rgba(34,51,67,0.83922) 58%, rgba(34,51,67,0.74) 63%, rgba(34,51,67,0.42) 81%, rgba(34,51,67,0) 100%);
-	height: 300px;
-	width: 100%;
-	position: absolute;
-	z-index: 100;
-}
-
-.slider-gradient p{
-	color: white;
-	margin-top: 50px;
-	display: inline-block;
-	float: left;
-}
-
-.slider-wrapper{
-	width: 100%;
-	min-height: 300px;
-}
-
-.slider-elem{
-	width: 100%;
-	height: 300px;
-}
-
-.slider-elem img{
-	display: inline-block;
-	width: 60%;
-	float: right;
-	min-height: 300px;
-}
-
-
-.slider-descript-title {
-	width: 100%;
-	margin: 0!important;
-	margin-top: 50px!important;
-	font-size: 20pt;
-	padding-left: 15px;
-}
-
-.slider-descript-name {
-	width: 100%;
-	margin: 0!important;
-	margin-top: 10px!important;
-	margin-bottom: 10px!important;
-	font-size: 14pt;
-	padding-left: 15px;
-}
-
-.slider-descript-text{
-	width: 100%;
-	margin: 0!important;
-	padding-left: 15px;
-}
 
 ul li {
 	list-style: none;
@@ -245,13 +187,11 @@ a:focus{
 }
 .but1 {
 	border: 2px solid white;
-	border-radius: 5px;
 	padding: 6px 20px;
 	margin-right: 10px;
 }
 .but1:hover {
 	border: 2px solid #3399cc;
-	border-radius: 5px;
 	padding: 6px 20px;
 	margin-right: 10px;
 	background-color: #3399cc;
@@ -259,7 +199,6 @@ a:focus{
 }
 .but2 {
 	border: 2px solid #3399cc;
-	border-radius: 5px;
 	padding: 6px 20px;
 	margin-right: 10px;
 	background-color: #3399cc;
@@ -267,7 +206,6 @@ a:focus{
 }
 .but2:hover {
 	border: 2px solid white;
-	border-radius: 5px;
 	padding: 6px 20px;
 	margin-right: 10px;
 	color: white;
@@ -281,32 +219,33 @@ a:focus{
 }
 
 .r2{
-	margin-top: 50px!important;
+	margin-top: 60px!important;
 }
 
 .r3{
-	margin-top: 30px!important;
+	margin-top: 20px!important;
 }
 
 .r4{
-	margin-top: 40px!important;
+	margin-top: 50px!important;
 }
 
 .r5{
-	margin-top: 30px!important;
+	margin-top: 20px!important;
 }
 
 .r7a{
-	margin-top: 50px!important;
+	background-color: transparent;!important;
+	margin-top: 60px!important;
 }
 
 .r11{
-	margin-top: 50px!important;
+	margin-top: 60px!important;
 }
 
 .second-stategy{
-	margin-top: 30px!important;
-	margin-bottom: 50px!important;
+	margin-top: 40px!important;
+	margin-bottom: 60px!important;
 }
 
 /********************/
@@ -357,15 +296,61 @@ span.ico4:before {
 }
 
 .solution{
-	height: auto;
+	width: 100%;
+	height: 500px;
+	padding: 0!important;
+	padding-right: 7px!important;
+	padding-left: 7px!important;
+	background: transparent;
+	margin-top: 20px;
 }
-.ico-second {
-	width: 36px;
-	height: 36px;
+.example{
+	width: 100%;
+	height: 100%;
+	box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	display: block;
 }
-.im-ico {
-	float: left;
-	width: 36px;
+
+.example-first{
+	background: url("/static/nooapp/images/isaev-example.png") no-repeat;
+	background-size: cover;
+}
+
+.example-second{
+	background: url("/static/nooapp/images/klevis-example.png") no-repeat;
+	background-size: cover;
+}
+
+.example-thrid{
+	background: url("/static/nooapp/images/макет.png") no-repeat;
+	background-size: cover;
+}
+
+.example-text{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	display: none;
+	margin: auto;
+	margin-top: 350px;
+	box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.2);
+	text-align: left;
+}
+
+.example-text p{
+	font-family: gothaProMed !important;
+	font-size: 12pt !important;
+	color: #333;
+	padding: 20px;
+}
+
+.example:hover{
+	box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+.example:hover .example-text{
+	display: inline-block;
 }
 
 .after-ico-title {
@@ -404,6 +389,9 @@ span.ico4:before {
 .descript {
 	font-size: 14pt;
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0!important;
 }
 .f40 {
 	font-size: 40px;
@@ -485,15 +473,20 @@ span.ico4:before {
 }
 
 .fmax {
-	width: 100%;
+	width: 97%;
 	height: 70px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+	border: none;
 }
 .ft, .fb {
 	width: 97%;
 	height: 30px;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+	border: none;
 }
 .fb {
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .fl {
 	padding: 0!important;
@@ -501,13 +494,11 @@ span.ico4:before {
 
 .post {
 	border: 2px solid #3399cc;
-	border-radius: 5px;
 	padding: 3px 20px;
 	background-color: #3399cc;
 	color: white;
 }
 .post:hover {
-	border-radius: 5px;
 	padding: 3px 20px;
 	color: #3399cc;
 	background-color: white;
@@ -515,7 +506,6 @@ span.ico4:before {
 
 .post:focus {
 	border: 2px solid #3399cc;
-	border-radius: 5px;
 	padding: 3px 20px;
 	background-color: #3399cc;
 	outline: none;
@@ -524,7 +514,6 @@ span.ico4:before {
 
 .post:active {
 	border: 2px solid #3399cc;
-	border-radius: 5px;
 	padding: 3px 20px;
 	background-color: #3399cc;
 	color: white;
@@ -573,7 +562,7 @@ span.ico4:before {
 
 .footer_phone{
 	font-family: gothaProMed !important;
-	font-size: 20pt !important;
+	font-size: 18pt !important;
 	color: #c4c7cb;
 	height: 48px;
 	padding-top: 56px;
@@ -619,4 +608,163 @@ footer {
 
 .inner-text-call p{
 	font-size: 18pt;
+}
+
+.our-work{
+	width: 100%;
+	height: 100%;
+	float: left;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+	text-align: left;
+}
+.price{
+	display: block;
+	position: absolute;
+	top: 280px;
+	left:50%;
+	margin-left: -67px;
+	font-family: gothaProMed!important;
+	font-size: 14pt;
+}
+.our-work img{
+	height: 90%;
+	width:100%;
+}
+.our-work:hover img{
+	height: 100%;
+	width: 100%;
+	padding: 0!important;
+}
+
+.our-work:hover{
+	box-shadow: 3px 3px 7px 2px rgba(0, 0, 0, 0.2);
+}
+
+.our-work-col {
+	height: 350px;
+	padding-left: 7px!important;
+	padding-right: 7px!important;
+}
+
+.our-work-col-main{
+	padding: 0!important;
+	margin-top: 10px;
+}
+
+.our-work-row{
+	padding: 0!important;
+}
+
+.collage{
+	height: 600px;
+	margin: auto;
+	position: inherit;
+	padding: 0!important;
+	box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.collage-img{
+	float: left;
+	background-color: white;
+	padding: 10px;
+}
+.person{
+	width: 100%;
+	height: 100%;
+}
+.collage-first{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 57%;
+	height: 300px;
+	z-index: 88;
+}
+.collage-second{
+	position: absolute;
+	top:250px;
+	left: 0;
+	width: 50%;
+	height: 350px;
+	z-index: 98;
+}
+.collage-third{
+	position: absolute;
+	top:0px;
+	left: 53%;
+	width: 47%;
+	height: 340px;
+	z-index: 78;
+}
+.collage-forth{
+	position: absolute;
+	top:290px;
+	left: 45%;
+	width: 55%;
+	height: 310px;
+	z-index: 68;
+}
+
+.person-first{
+	background: url("/static/nooapp/images/photo/Диман.jpeg") 50% 50% no-repeat;
+	background-size: cover;
+}
+.person-second{
+	background: url("/static/nooapp/images/photo/Некит.jpeg") 50% 50% no-repeat;
+	background-size: cover;
+}
+.person-third{
+	background: url("/static/nooapp/images/photo/Ден.jpeg") 50% 50% no-repeat;
+	background-size: cover;
+}
+.person-forth{
+	background: url("/static/nooapp/images/photo/Саня.jpeg") 50% 10% no-repeat;
+	background-size: cover;
+}
+
+.collage-img:hover{
+	z-index: 99;
+	box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.2);
+}
+.collage-img:hover .person-descript{
+	display: inline-block;
+}
+.person-descript p{
+	margin: 0!important;
+	font-family: gothaProMed!important;
+	padding: 15px;
+}
+.person-descript-first{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	margin-top: 210px;
+	text-align: left;
+	display: none;
+}
+.person-descript-second{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	margin-top: 260px;
+	text-align: left;
+	display: none;
+}
+.person-descript-third{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	margin-top: 250px;
+	text-align: left;
+	display: none;
+}
+.person-descript-forth{
+	background-color: white;
+	width: 100%;
+	height: 70px;
+	margin-top: 220px;
+	text-align: left;
+	display: none;
 }

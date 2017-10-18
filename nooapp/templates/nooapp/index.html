@@ -46,7 +46,8 @@
 				<div class="row r-top"><p class="noo_name">noo</p>
 				
 				<ul class="menu1 pull-right">
-					<li><a class="menu01 hypref" href="#more">Профиль</a></li>
+					<li><a class="menu01 hypref" href="#more">Цены</a></li>
+					<li><a class="menu01 hypref" href="#portfolio">Портфолио</a></li>
 					<li><a class="menu01 hypref" href="#about-us">О нас</a></li>
 					<li><a class="menu01 hypref" href="#contacts">Контакты</a></li>
 				</ul>
@@ -70,88 +71,91 @@
 				В их числе:</p>
 			</div>
 			<div class="row r3">
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-6"> <p class="ico4 ico">Веб-сервисы</p>
-							<p class="ico-description">Веб-приложение предоставляющее определенный
-								функционал: от простого онлайн-калькулятора до масштабной информационной системы</p></div>
-						<div class="col-md-6"> <p class="ico2 ico">Интернет-магазины</p>
-							<p class="ico-description">Сайт, на котором пользователь может выбрать из каталога,
-								заказать и оплатить товар, а также оформить доставку</p></div>
-					</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 our-work-col-main">
+					<div class="row our-work-row">
+						<div class="col-md-6 col-sm-6 col-xs-6 our-work-col">
+                            <div class="our-work">
+                                <p class="ico4 ico">Веб-сервисы</p>
+                                <p class="ico-description">Веб-приложение предоставляющее определенный
+                                    функционал: от простого онлайн-калькулятора до масштабной информационной системы</p>
+								<p class="price">От 86000 руб.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6 our-work-col">
+                            <div class="our-work">
+                                <p class="ico2 ico">Интернет-магазины</p>
+							    <p class="ico-description">Сайт, на котором пользователь может выбрать из каталога,
+								заказать и оплатить товар, а также оформить доставку</p>
+								<p class="price">От 25000 руб.</p>
+                            </div>
+                        </div>
+                    </div>
 				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-6"> <p class="ico3 ico">Сайты-визитки</p>
+				<div class="col-md-6 col-sm-12 col-xs-12 our-work-col-main">
+					<div class="row our-work-row">
+						<div class="col-md-6 col-sm-6 col-xs-6 our-work-col">
+                            <div class="our-work">
+                            <p class="ico3 ico">Сайты-визитки</p>
 							<p class="ico-description">Небольшой сайт, содержащий информацию о компании.
-								Сайт-визитка призван ознакомить клиента с организацией</p></div>
-						<div class="col-md-6"> <p class="ico1 ico">Лендинги</p>
-							<p class="ico-description">Веб-страница с информацией о товаре или услуге.
-								Лендинг увеличит продажи товара за приемлемую стоимость</p></div>
+								Сайт-визитка призван ознакомить клиента с организацией</p>
+								<p class="price">От 8000 руб.</p>
+                            </div>
+                        </div>
+						<div class="col-md-6 col-sm-6 col-xs-6 our-work-col">
+                            <div class="our-work">
+                                <p class="ico1 ico">Лендинги</p>
+							    <p class="ico-description">Веб-страница с информацией о товаре или услуге.
+								Лендинг увеличит продажи товара за приемлемую стоимость</p>
+								<p class="price">От 6000 руб.</p>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>
 
-			<div class="row r4">
-				<p class="title title-p">Наша стратегия</p>
+			<div class="row r4" id="portfolio">
+				<p class="title title-p">Наше портфолио</p>
 			</div>
 
 			<div class="row r5">
-					<div class="row">
-						<div class="col-md-6 solution">
-							<div class="row">
-								<div class="im-ico"><img class="ico-second" src="{% static 'nooapp/images/stethoscope.png' %}" alt="">
+					<div class="row example-web">
+						<div class="col-md-4 solution">
+							<a href="#">
+								<div class="example example-first">
+									<div class="example-text">
+										<p>
+											Интернет-магазин кондитерских изделий с классическим
+											дизайном с понятным и приятным пользователю интерфейсом
+										</p>
+									</div>
 								</div>
-								<div class="after-ico-title">
-									<p class="label-description">Анализ ваших клиентов</p>
+							</a>
+						</div>
+						<div class="col-md-4 solution">
+							<a href="#">
+								<div class="example example-second">
+									<div class="example-text">
+										<p>
+											Сайт-Визитка компании из Чехии. Деловой стиль и яркий дизайн подчеркивает
+											серьезность и креативность компании
+										</p>
+									</div>
 								</div>
-							</div>
-							<div class="row after-ico-text">
-								<p class="ico-description2">Изучение вашей целевой аудитории для повышения эффективности работы сайта</p>
-							</div>
-							
+							</a>
 						</div>
-						<div class="col-md-6 solution">
-							<div class="row">
-							<div class="im-ico"><img class="ico-second" src="{% static 'nooapp/images/analysis.png' %}" alt="">
-							</div>
-							<div class="after-ico-title">
-								<p class="label-description">Современные технологии</p>
-							</div>
-							</div>
-							<div class="row after-ico-text">
-								<p class="ico-description2">Разработка веб-приложений использованием современных инструментов и технологий</p>
-							</div>
+                        <div class="col-md-4 solution">
+							<a href="#">
+								<div class="example example-thrid">
+									<div class="example-text">
+										<p>
+											Интернет-магазин цветов. С продуманным интерфейсом заказ
+											букета не потребует больше трех кликов
+										</p>
+									</div>
+								</div>
+							</a>
 						</div>
-					</div>
-					<div class="row second-stategy">
-						<div class="col-md-6 solution">
-							<div class="row">
-							<div class="im-ico"><img class="ico-second" src="{% static 'nooapp/images/worker.png' %}" alt="">
-							</div>
-							<div class="after-ico-title">
-								<p class="label-description">Индивидуальный подход</p>
-							</div>
-							</div>
-							<div class="row after-ico-text">
-								<p class="ico-description2">Формирование индивидуального подхода к решению задач вашего бизнеса</p>
-							</div>
-							
-					</div>
-						<div class="col-md-6 solution">
-							<div class="row">
-							<div class="im-ico"><img class="ico-second" src="{% static 'nooapp/images/king.png' %}" alt="">
-							</div>
-							<div class="after-ico-title">
-								<p class="label-description">Долгосрочное сотрудничество</p>
-							</div>
-							</div>
-							<div class="row after-ico-text">
-								<p class="ico-description2">Долгосрочное планирование продвижения вашего сайта и его поддержки</p>
-							</div>
-							
-						</div>
-					</div>
+                    </div>
 
 			</div>
 		</div>
@@ -159,117 +163,6 @@
 			<div class="col-md-1"></div>
 </div>
 
-<div class="row r7 pre-slider">
-
-		<div class="pull-right slider-wrapper">
-			<ul class="bxslider">
-				<li>
-					<div class="slider-elem">
-						<div class="row slider-gradient">
-							<div class="col-md-1"></div>
-							<div class="col-md-10">
-								<p class="slider-descript-title title-p">
-									Наши приоритеты
-								</p>
-								<p class="slider-descript-name">
-									Результативность
-								</p>
-								<p class="slider-descript-text">
-									Главная цель - повышение эффективности<br/>
-									вашего бизнеса. Наше развитие напрямую <br/>
-									зависит от вашего успеха
-								</p>
-							</div>
-						</div>
-						<img src="{% static 'nooapp/images/success.jpeg' %}">
-					</div>
-				</li>
-				<li>
-					<div class="slider-elem">
-						<div class="row slider-gradient">
-							<div class="col-md-1"></div>
-							<div class="col-md-10">
-								<div class="slide-descript сol-md-5">
-									<p class="slider-descript-title title-p">
-										Наши приоритеты
-									</p>
-									<p class="slider-descript-name">
-										Интерес клиента
-									</p>
-									<p class="slider-descript-text">
-										Первостепенная задача - помощь<br/>
-										вам в реализации ваших идей
-									</p>
-								</div>
-							</div>
-						</div>
-						<img src="{% static 'nooapp/images/c.jpg' %}">
-					</div>
-				</li>
-				<li>
-					<div class="slider-elem">
-						<div class="row slider-gradient">
-							<div class="col-md-1"></div>
-							<div class="col-md-10">
-								<p class="slider-descript-title title-p">
-									Наши приоритеты
-								</p>
-								<p class="slider-descript-name">
-									Профессионализм
-								</p>
-								<p class="slider-descript-text">
-									Поддержка высоких стандартов<br/>
-									профессионализма в работе с клиентом
-								</p>
-							</div>
-						</div>
-						<img src="{% static 'nooapp/images/MAN.jpg' %}">
-					</div>
-				</li>
-				<li>
-					<div class="slider-elem">
-						<div class="row slider-gradient">
-							<div class="col-md-1"></div>
-							<div class="col-md-10">
-								<p class="slider-descript-title title-p">
-									Наши приоритеты
-								</p>
-								<p class="slider-descript-name">
-									Передовые технологии
-								</p>
-								<p class="slider-descript-text">
-									Использование новейших методов<br/>
-									и технологий разработки веб-приложений
-								</p>
-							</div>
-						</div>
-						<img src="{% static 'nooapp/images/comp.jpeg' %}">
-					</div>
-				</li>
-				<li>
-					<div class="slider-elem">
-						<div class="row slider-gradient">
-							<div class="col-md-1"></div>
-							<div class="col-md-10">
-								<p class="slider-descript-title title-p">
-									Наши приоритеты
-								</p>
-								<p class="slider-descript-name">
-									Изобретательность
-								</p>
-								<p class="slider-descript-text">
-									Применение креативного подхода<br/>
-									к решению сложных задач
-								</p>
-							</div>
-						</div>
-						<img src="{% static 'nooapp/images/chess.jpeg' %}">
-					</div>
-				</li>
-			</ul>
-		</div>
-
-</div>
 
 <div class="row r7a">
 			<div class="col-md-1"></div>
@@ -280,74 +173,71 @@
 					<p class="descript">Проект NOO<sup>web</sup> основан в 2016 году c целью предоставляния<br>профессиональных услуг
 						по разработке веб-приложений</p>
 				</div>
-				<div class="row quote-row">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-4">
-						<img class="quote" src="{% static 'nooapp/images/quotes.png' %}" alt="">
-					</div>
-					<div class="col-md-4">
-						<img class="quote" src="{% static 'nooapp/images/quotes.png' %}" alt="">
-					</div>
-					<div class="col-md-2">
+				<div class="row">
+					<div id="collage" class="col-md-8 col-md-offset-2 collage">
+						<div class="collage-img collage-first">
+							<div class="person person-first">
+								<div class="person-descript-first person-descript">
+									<p>
+										Дмитрий<br>JavaScript-разработчик
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="collage-img collage-second">
+							<div class="person person-second">
+								<div class="person-descript-second person-descript">
+									<p>
+										Никита<br>Python-разработчик
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="collage-img collage-third">
+							<div class="person person-third">
+								<div class="person-descript-third person-descript">
+									<p>
+										Денис<br>JavaScript-разработчик
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="collage-img collage-forth">
+							<div class="person person-forth">
+								<div class="person-descript-forth person-descript">
+									<p>
+										Александр<br>.NET-разработчик
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="collage-img collage-fivth">
+							<div class="person person-fivth"></div>
+						</div>
+						<div class="collage-img collage-sixth">
+							<div class="person person-sixth"></div>
+						</div>
+						<div class="collage-img collage-seventh">
+							<div class="person person-seventh"></div>
+						</div>
 					</div>
 				</div>
-				<div class="row r10">
-					<div class="col-md-2"></div>
-					<div class="col-md-4 name-city1">
-						<img class="name-city1 inb" src="{% static 'nooapp/images/photo/Некит.jpeg' %}" alt="">
-						<p class="name title-p">Никита<br/>Ангелов</p>
-						<p class="city">Python<br/>Разработчик</p>
-					</div>
-					<div class="col-md-4 name-city2">
-						<img class="name-city2 inb" src="{% static 'nooapp/images/photo/Диман.jpeg' %}" alt="">
-						<p class="name title-p">Дмитрий<br/>Беляев</p>
-						<p class="city">JavaScript<br/>Разработчик</p>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-				<div class="row quote-row">
-					<div class="col-md-2">
-					</div>
-					<div class="col-md-4">
-						<img class="quote" src="{% static 'nooapp/images/quotes.png' %}" alt="">
-					</div>
-					<div class="col-md-4">
-						<img class="quote" src="{% static 'nooapp/images/quotes.png' %}" alt="">
-					</div>
-					<div class="col-md-2">
-					</div>
-				</div>
-				<div class="row r10">
-					<div class="col-md-2"></div>
-					<div class="col-md-4 name-city1">
-						<img class="name-city1 inb" src="{% static 'nooapp/images/photo/Ден.jpeg' %}" alt="">
-						<p class="name title-p">Мещанов<br/>Денис</p>
-						<p class="city">JavaScript<br/>Разработчик</p>
-					</div>
-					<div class="col-md-4 name-city2">
-						<img class="name-city2 inb" src="{% static 'nooapp/images/photo/Саня.jpeg' %}" alt="">
-						<p class="name title-p">Стрельников<br/>Александр</p>
-						<p class="city">.NET<br/>Разработчик</p>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-
 				<div class="row r11" id="contacts">
 					<p class="title title-p">Контакты </p>
-					<p class="descript">Напишите нам, и мы свяжемся с вами в течение рабочего дня</p>
+					<p class="descript">Напишите нам, и мы свяжемся с вами в течение рабочего дня<br>
+					Или позвоните нам по номеру +7(929)007-91-06</p>
 				</div>
 				<form action="" id="call-form">
                         {% csrf_token %}
 				<div class="row foot00">
 					<div class="col-md-2"></div>
-					<div class="col-md-8">
-						<div class="col-md-5 data-fields">
+					<div class="col-md-8 col-sm-12 col-xs-12">
+						<div class="col-md-5 col-sm-12 col-xs-12 data-fields">
 							<div class="row">
-								<div class="field-left fl col-md-12">
+								<div class="field-left fl col-md-12 col-sm-12 col-xs-12">
 									<input required class="ft" type="tel" placeholder="Телефон (обязательно)" name="phone" id="phone">
 								</div>
-								<div class="field-mid fl col-md-12">
+								<div class="field-mid fl col-md-12 col-sm-12 col-xs-12">
 									<input class="fb" type="text" placeholder="Имя" name="name" id="name">
 								</div>
 							</div>
@@ -375,17 +265,17 @@
 
 </div>
 <footer class="foot row">
-	<div class="col-md-1"></div>
-		<div class="f col-md-10">
+	<div class="col-md-1 col-sm-1 col-xs-1"></div>
+		<div class="f col-md-10 col-sm-10 col-xs-10">
 			<div class="row">
-				<div class="col-md-4 footer-left">
+				<div class="col-md-4 col-sm-4 col-xs-4 footer-left">
 					<p class="footer_phone">+7(929)007-91-06</p>
 				</div>
-				<div class="col-md-4 footer_mid">
+				<div class="col-md-4 col-sm-4 col-xs-4 footer_mid">
 					<p class="footer_noo_name">noo</p>
 					<p class="des-foot">(c) 2016, Noo technologies</p>
 				</div>
-				<div class="col-md-4 footer-right">
+				<div class="col-md-4 col-sm-4 col-xs-4 footer-right">
 					<p class="footer_prava">Все права защищены</p>
 					<a class="footer_conf" href="{% url 'nooapp:conf'%}">Политика конфиденциальности</a>
 				</div>
